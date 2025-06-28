@@ -6,7 +6,7 @@ const nextConfig = {
     return [
       {
         source: '/redirect',
-        destination: 'https://bookworm-hub-admin-iqjd.vercel.app/',
+        destination: 'https://library-management-tamnet.netlify.app/',
         permanent: false,
       },
     ];

@@ -11,7 +11,7 @@ export default function EmailVerified() {
 
   useEffect(() => {
     if (countdown <= 0) {
-      router.push('https://bookworm-hub-admin-iqjd.vercel.app/');
+      router.push('https://library-management-tamnet.netlify.app/');
       return;
     }
 
@@ -66,7 +66,7 @@ export default function EmailVerified() {
           transition={{ delay: 0.7, duration: 0.6 }}
         >
           <a 
-            href="https://bookworm-hub-admin-iqjd.vercel.app/" 
+            href="https://library-management-tamnet.netlify.app/" 
             className="button button-primary"
           >
             Go to Dashboard
